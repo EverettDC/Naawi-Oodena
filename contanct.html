@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            margin: 3%;
+            background-color: #0050b5;
+        }
+        /*From this note to the next is the nav CSS*/
+        a {
+            color: white;
+            padding: 2.5%;
+            font-size: 20px;
+        }
+        #nav-ul {
+            -ms-flex-direction: row;
+            -ms-flex-wrap: nowrap;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            height: 10%;
+            text-align: right;
+            border-bottom: 5px black solid;
+        }
+        li {
+            overflow: hidden;
+            background-color: #4b0082;
+            width: 20%;
+            margin: 5%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            border: 2px solid black;
+            text-align: center;
+        }
+        #nav-img {
+            height: 20%;
+            width: 20%;
+        }
+        a:hover {
+            color: skyblue;
+        }
+        /*This marks the end of the nav CSS*/
+        #con-ul {
+            -ms-flex-direction: row;
+            -ms-flex-wrap: wrap;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 10%;
+            text-align: right;
+        }
+        #con-ul li {
+            height: 20%;
+            width: 30%;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+</head>
+<body>
+    <nav>
+        <ul type="none" id="nav-ul">
+            <img id="nav-img"src="images/Firefly create a logo for the letters N and O 556887.jpg" alt="Simple logo with the letters N and O, the O is slightly covered by the N">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Information</a></li>
+            <li><a href="contanct.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <header>
+            <h1>Learn More, Sources and Contacts</h1>
+        </header>
+        <div>
+            <div>
+                <!--Many of the learning material and sources overlap because i used some but not all of the info in them-->
+                <h2>Material to Learn more</h2>
+                <ul type="none" id="con-ul">
+                    <li><a href="https://www.canada.ca/en/department-national-defence/news/2019/08/former-kapyong-barracks.html" target="_blank">Learn what the Canadian government has to say.</a></li>
+                    <li><a href="https://treaty1.ca/" target="_blank">Learn more about Treaty One and its people.</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/CFB_Winnipeg" target="_blank">Learn more about the Kapyong Barracks. (Wikipedia)</a></li>
+                    <li><a href="https://treaty1.ca/wp-content/uploads/2021/11/Kapyong-Barracks-Master-Plan.pdf">Naawi Oodena master plan.</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Sources</h2>
+                <ul id="con-ul">
+                    <li><a href="https://www.canada.ca/en/department-national-defence/news/2019/08/former-kapyong-barracks.html" target="_blank">Kapyong Barracks History. (Canadian Government)</a></li>
+                    <li><a href="https://treaty1.ca/" target="_blank">Treaty One.</a></li>
+                    <li><a href="https://treaty1.ca/wp-content/uploads/2021/11/Kapyong-Barracks-Master-Plan.pdf">Naawi Oodena master plan.</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Contact</h2>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>

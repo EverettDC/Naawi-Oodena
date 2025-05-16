@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <!--
+    Font sizes:
+    Header - h1 - 300%
+    SubHeader - h2 - 200%
+    Paragraph - p default
+    -
+    Temporary text (to copy)
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    Colors
+    Indigo (#4b0082)
+    Background - Cobalt (#0050b5)-->
+    <style>
+        /*From this note to the next is the nav CSS (When I tried to put the nav CSS in the external it boke so i cut my losses and copy pasted)*/
+        a {
+            color: white;
+            padding: 2.5%;
+            font-size: 20px;
+        }
+        #nav-ul {
+            -ms-flex-direction: row;
+            -ms-flex-wrap: nowrap;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            height: 10%;
+            text-align: right;
+            border-bottom: 5px black solid;
+        }
+        #nav-li {
+            overflow: hidden;
+            background-color: #4b0082;
+            width: 20%;
+            margin: 5%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            border: 2px solid black;
+            text-align: center;
+        }
+        #nav-img {
+            height: 20%;
+            width: 20%;
+        }
+        a:hover {
+            color: skyblue;
+        }
+        /*This marks the end of the nav CSS*/
+        #grid-div {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 1%;
+            row-gap: 10%;
+        }
+        #info {
+            color: white;
+            border: 2px solid black;
+            background-color: #4b0082;
+            padding: 1%;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            width: auto;
+        }
+        #img1 {
+            color: white;
+            border: 2px solid black;
+            background-color: #4b0082;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            width: auto;
+        }
+        #hist {
+            color: white;
+            border: 2px solid black;
+            background-color: #4b0082;
+            padding: 1%;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            width: auto;
+        }
+        footer {
+            color: white;
+            background-color: #4b0082;
+            border: 2px black solid;
+            padding: 1%;
+            -ms-transform: translate(0px, 100px);
+            -moz-transform: translate(0px, 100px);
+            -o-transform: translate(0px, 100px);
+            -webkit-transform: translate(0px, 100px);
+            transform: translate(0px, 100px);
+        }
+        #foot-div {
+            width: 100%;
+            height: fit-content;
+        }
+        #img1:hover {
+            -ms-transform: scale(150%);
+            -moz-transform: scale(150%);
+            -o-transform: scale(150%);
+            -webkit-transform: scale(150%);
+            transform: scale(150%);
+        }
+        #img2:hover {
+            -ms-transform: scale(150%);
+            -moz-transform: scale(150%);
+            -o-transform: scale(150%);
+            -webkit-transform: scale(150%);
+            transform: scale(150%);
+            z-index: 1;
+        }
+        footer a {
+            border: 3px black solid;
+        }
+        #foot-grid-con {
+            display: flex;
+            justify-content: center;
+        }
+        #foot-a {
+            margin: 2%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naawi Oodena in 10 Years</title>
+</head>
+<body>
+        <nav>
+            <ul type="none" id="nav-ul">
+                <img id="nav-img" src="images/Firefly create a logo for the letters N and O 556887.jpg" alt="Simple logo with the letters N and O, the O is slightly covered by the N">
+                <li id="nav-li"><a href="index.html">Home</a></li>
+                <li id="nav-li"><a href="info.html">Information</a></li>
+                <li id="nav-li"><a href="contanct.html">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Naawi Oodena</h1>
+        </header>
+        <main>
+            <div id="back-img">
+                <div id="grid-div">
+                    <div id="info"><h2>Brief Overview</h2><p>&#8226 Naawi Oodena is an urban indigenous reserve in Winnipeg Manitoba Canada.</p><p>&#8226 The reserve was built in 2025-2026 and opened in early 2027.</p> <p>&#8226 The reserve is meant to provide housing, communtiy and a paradise of equality.</p><p>&#8226 Equipped with lots of space for recreation, education and commune Naawi Oodena is a beautiful section of Winnipeg to be admired.</p><p>&#8226 Naawi Oodena means centre of the heart and communtiy.</p></div>
+                    <div id="img1"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9539.241465024588!2d-97.21794508152735!3d49.85411139374806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea74eab82e68cb%3A0x4ffc4bf8a3a9cf2f!2sNaawi-Oodena%2C%20Winnipeg%2C%20MB!5e1!3m2!1sen!2sca!4v1747423985357!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    <div id="hist"><h2>Brief History</h2><p>&#8226 Naawi Oodena is a 160 acre plot of land that used be known as the Kapyong Barracks</p><p>&#8226 It was used as a base for the Canadian Armed Forces but was given to the people of Treaty One in 2022.</p><p>&#8226 Planning for the reserve started soon after and construction started in 2025.</p><p>&#8226 After some initial complications the construction of Naawi Oodena went smoothly and no major issues have arisen as of 2040.</p></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="foot-div">
+                <h2>Sources</h2>
+                <!--I got lazy and used line breaks-->
+                </br>
+                </br>
+                <div id="foot-grid-con">
+                    <a href="https://treaty1.ca/wp-content/uploads/2021/11/Kapyong-Barracks-Master-Plan.pdf" target="_blank" id="foot-a">Naawi Oodena master plan</a>
+                    <a href="https://www.canada.ca/en/department-national-defence/news/2019/08/former-kapyong-barracks.html" target="_blank" id="foot-a">Kapyong Barracks History</a>
+                </div>
+                </br>
+                </br>
+                </br>
+                <h2>Contact</h2>
+                <div>
+                    <p style="text-align: center;">For more information or if you have any questions please contact AnEmailAddress@gmail.com or call 1+204-555-0000</p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

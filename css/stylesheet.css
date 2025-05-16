@@ -1,0 +1,20 @@
+/*Primary - Indigo (#4b0082) - I used blues because they promote trustworthiness and it also represents the sky or a sort of heaven (which is what I see when I think of Naawi Oodena in however many years)
+Secondary - Background - Cobalt (#0050b5) - Same reasons as above, it also helps that i can see blues with consistency
+Accent (Text) - White - Has better contrast with blues than black*/
+* {
+    font-family: serif;
+}
+body {
+    margin: 3%;
+    background-color: #0050b5;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
